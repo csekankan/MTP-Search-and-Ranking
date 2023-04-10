@@ -1,0 +1,11 @@
+streamlit==1.15.2
+matplotlib
+xgboost
+lightgbm
+plotly
+scikit-learn
+torch
+deepctr-torch==0.2.9
+sentence_transformers 
+faiss-gpu
+rank_bm25
