@@ -4,8 +4,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import operator
 import streamlit as st
 import pickle
-import gensim
-
 
 def train(content_df):
        if 'curr_model' not in st.session_state:
@@ -33,7 +31,6 @@ def train(content_df):
 
 def search(query,content_df,itemid):
 
-       print('aaaaaaaaaaaaaaaaaaaaa'+str(st.session_state['curr_model'] ))
        # print( st.session_state['curr_model'])
        tfidf = TfidfVectorizer(stop_words='english')
        if 'tfidf_model' not in st.session_state:

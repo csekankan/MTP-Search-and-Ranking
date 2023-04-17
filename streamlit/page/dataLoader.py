@@ -14,7 +14,7 @@ def file_up(separator):
                       df = pd.read_csv(w,sep='\t')
                else:
                     df = pd.read_csv(w,sep=separator)
-                    print(df.head(5))
+                 
      
      
       return df
@@ -46,7 +46,7 @@ def run():
             if(len(i)>0):
              cols.append(i)
       cols=list(set(cols))      
-      print(cols)
+
       if df is not None and df.shape[1]>0  and cols is not None and len(cols)>0:
         df=df[cols]
    

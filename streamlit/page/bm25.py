@@ -4,7 +4,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import operator
 import streamlit as st
 import pickle
-from gensim import corpora
 from rank_bm25 import *
 
 

@@ -85,7 +85,7 @@ def search(query,content_df,itemid):
        correct_hits_ids = set([hit['corpus_id'] for hit in correct_hits])
        
        results =  [content_df.iloc[idx][itemid[0]] for idx in correct_hits_ids]
-       print(results)
+ 
        # We use cosine-similarity and torch.topk to find the highest 3 scores
        # cos_scores = util.pytorch_cos_sim(query_embedding, corpus)[0]
        # top_results = torch.topk(cos_scores, k=10)
