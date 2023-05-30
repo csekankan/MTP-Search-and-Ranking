@@ -1,2 +1,2 @@
 # MTP-Search-and-Ranking
-![Screenshot](colab/image/search and ranking.png)
+<img src="colab/image/search and ranking.png" alt="flowchart"/>
