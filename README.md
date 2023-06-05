@@ -1,4 +1,4 @@
 # MTP-Search-and-Ranking
-<p>
-<img src="colab/image/search and ranking.svg" alt="flowchart"/>
-</p>
+
+ ![Model](https://github.com/csekankan/MTP-Search-and-Ranking/blob/main/colab/image/search%20and%20ranking.svg)
+
